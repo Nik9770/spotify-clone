@@ -1,0 +1,736 @@
+*{
+    font-family: 'DM Sans', sans-serif;
+}
+
+.main-body{
+    position: relative;
+    background: linear-gradient(180deg, #222 0%, #1F1F1F 11.64%, #171717 25.66%, #161616 32.94%, #151515 35.98%, #131313 44.89%, #121212 55.22%, #121212 75.34%, #121212 85.45%, rgba(18, 18, 18, 0.00) 100%);
+    width: 1903px;
+    height: 1116px;
+}
+
+/* top-arrow-navigation */
+.top-arrow-navigation{
+    height: 40px;
+    width: 100px;
+    top: 25.5px;
+    left: 381px;
+    position: absolute;
+}
+
+.right-arrow-circle, .left-arrow-circle{
+    position: relative;
+}
+
+.right-arrow, .left-arrow{
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+
+
+
+/* title-and-playlist */
+.title-and-playlist-body{
+    position: absolute;
+    top: 117px;
+    left: 420px;
+    width: 1147px;
+    height: 294px;
+}
+
+.greet-msg{
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -1.14px;
+}
+
+.recommend{
+    height: 220px;
+}
+
+.recommend-block{
+    display: flex;
+    width: 362px;
+    height: 100px;
+    border-radius: 4px;
+    background: #303030;
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.4px;
+    align-items: center;
+}
+
+.recommend-block img{
+    margin-right: 21px;
+    border-radius: 4px 0px 0px 4px;
+}
+
+.text-block{
+    width: 181px;
+    height: 48px;
+    flex-shrink: 0;
+}
+
+
+/* User */
+.user-body{
+right: 37px;
+top: 21.5px;
+position: absolute;
+width: 147px;
+height: 41px;
+border-radius: 33px;
+background: #0A0A0A;
+}
+
+.usr-img{
+ margin-left: 2px ;
+}
+
+.usr-name{
+    margin-left: -6px;
+    flex-shrink: 0;
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.4px;
+}
+
+.usr-down-arrow{
+    margin-right: 10px;
+}
+
+
+/* left-section-body */
+.left-section-body{
+    position: absolute;
+    left: 0px;
+    width: 370px;
+    height: 980px;
+    background-color: #000;
+}
+
+/* spotify logo */
+.spotify-logo{
+    position: absolute;
+    margin-top: 40px;
+    margin-left: 35px;
+}
+
+/* left-top */
+.left-options-top{
+    position: absolute;
+    top: 137px;
+    left:12px;
+    height: 170px;
+    width:350px;
+}
+
+.left-top-text{
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -1.14px;
+}
+
+
+
+.home{
+    background: #282828;
+    border-radius: 6px;
+}
+
+.search, .your-library, .home{
+    color: white;
+    padding: 14.5px 0px 14.5px 28px;
+}
+
+.library-svg, .search-svg, .home-svg{
+    margin-right: 28px;
+}
+
+/* left-middle */
+.left-options-middle{
+    position: absolute;
+    top: 370px;
+    left: 40px;
+    width: 210px;
+    height: 160px;
+    color: white;
+}
+
+.left-mid-text{
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.997px;
+}
+
+.create-playlist-background, .liked-songs-background, .your-episodes-background{
+    position: relative;
+    margin-right: 28px;
+}
+
+.liked-songs-logo, .create-playlist-logo, .your-episodes-logo{
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+
+.liked-songs{
+    margin: 25px 0 25px 0;
+}
+
+
+
+/* left playlist */
+.left-playlist{
+    position: absolute;
+    top: 580px;
+    left: 40px;
+    width: 215px;
+    height:280px;
+}
+
+.playlist-list{
+    height: 100%;
+    width: 100%;
+    list-style-type: none;
+    color: white;
+    padding: 0px;
+    margin: 0px;
+}
+
+.playlist-list li{
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -1.567px;
+}
+
+/* install app */
+.install-app{
+    position: absolute;
+    bottom: 16px;
+    left: 40px;
+    width: 170px;
+    height: 30px;
+    color: white;
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.997px;
+}
+
+.install-app-logo{
+    margin-right: 32px;
+}
+
+
+/* shows-you-might-like */
+.shows-you-might-like-body{
+    position: absolute;
+    left: 420px;
+    top: 443px;
+    width: 1103.073px;
+    height: 664px;
+}
+
+.artist-text{
+    width: 304.596px;
+    height: 60.963px;
+    flex-shrink: 0;
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 29px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -1.16px;
+}
+
+.art-box{
+    background: #181818;
+    width: 251.292px;
+    height: 305.904px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+
+.art-box img{
+    position: absolute;
+    top: 21.77px;
+    left: 21.76px;
+    width: 207.778px;
+    height: 207.928px;
+}
+
+.art-box-text{
+    position: absolute;
+    width: 211.042px;
+    height: 27.216px;
+    top: 258px;
+    left: 21.76px;
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -0.42px;
+}
+
+.artist-label{
+    position: absolute;
+    top: 291.75px;
+    left: 22.84px;
+    color: #B3B3B3;
+    font-family: DM Sans;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.15px;
+}
+
+.art-box-small{
+    background: #181818;
+    width: 251.292px;
+    height: 250.753px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.artist-list{
+    height: 590px;
+}
+
+/* down-options */
+.down-options{
+    width: 1903px;
+    position: absolute;
+    bottom: 30px;
+    height: 112px;
+    background: #181818;
+}
+
+.artist-title-section{
+    position: absolute;
+    left: 17px;
+    width: 224.883px;
+    height: 70px;
+    
+}
+
+.song-name{
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.9px;
+}
+
+.artist-title{
+    color: #B3B3B3;
+    font-family: DM Sans;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.75px;
+}
+
+.right-options{
+    position: absolute;
+    right: 17px;
+    width: 270px;
+    height: 32px;
+}
+
+
+/* music player */
+.music-player{
+    width: 704px;
+    height: 80px;
+}
+
+.player-controls{
+    height: 51px;
+    width: 221px;
+}
+
+.duration{
+    width: 704px;
+    color: #C4C4C4;
+}
+
+.music-player-song-length{
+    width: 632px;
+    height: 5px;
+    border-radius: 2.5px;
+    background: #535353;
+}
+
+.music-player-seeker{
+    width: 511px;
+    height: 5px;
+    border-radius: 2.5px;
+    background: #C4C4C4;
+}
+
+/* listening-on-device */
+
+.listening-on-device-body{
+    width: 1903px;
+    height: 30px;
+    position: absolute;
+    bottom: 0px;
+    background: #1ED760;
+    color: #000;
+    font-family: DM Sans;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.listening-on-device-arrow{
+    position: absolute;
+    right: 203.5px;
+    top: -11px;
+}
+
+.device-text{
+    margin-left: 4.5px;
+    margin-right: 81px;
+}
+
+
+/* See All */
+.next-page>a{
+    text-decoration: none;
+    top: 450px;
+    right: 65px;
+    position: absolute;
+    color: #B3B3B3;
+    font-family: DM Sans;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.68px;
+}
+
+
+
+
+/* playlist page */
+.main-body--playlist{
+    background: linear-gradient(180deg, #90AEA7 0%, #000 89.7%);
+    position: relative;
+    width: 1903px;
+    height: 1116px;
+}
+
+.left-section-body--playlist{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 230px;
+    height: 1080px;
+    background: #000;
+}
+
+.spotify-logo--playlist{
+    margin-top: 19px;
+    margin-left: 24px;
+}
+
+.left-options-top--playlist{
+    margin: 25px auto;
+}
+
+.left-nav--playlist{
+    width: 216px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-start;
+}
+
+#home-play{
+   border-radius: 4px;
+   background: #282828;
+}
+
+#home-text{
+    opacity: 1;
+}
+
+.left-text--playlist{
+   color: #FFF;
+   font-family: DM Sans;
+   font-size: 14px;
+   font-weight: 700;
+   line-height: 16px;
+   opacity: 0.7;
+}
+
+.left-nav-svg-playlist{
+    margin: 8px 16px;
+}
+
+#playlist--text{
+    color: #B3B3B3;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 16px; 
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+    margin-left: 23px;
+    margin-bottom: 12px;
+}
+
+.left-mid--options{
+    display: flex;
+    align-items: center;
+}
+
+.left-mid--svg{
+    margin: 5px 16.5px 5px 23px;
+}
+
+#horizontal--line{
+    width: 184px;
+    height: 1px;
+    background: #282828;
+    margin-left: 23px;
+    margin-top: 8px;
+}
+
+.artist-image{
+    position: absolute;
+    left: 0px;
+    top: 757px;
+}
+
+/* mid top */
+.mid--top{
+    position: absolute;
+    left: 265.5px;
+    top: 146px;
+    height: 233.1px;
+    width: 862.5px;
+}
+
+.pop-right-now--image{
+    margin-right: 24.5px;
+}
+
+#pop-top--text{
+    color: #FFF;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -0.26px;
+}
+
+#pop-heading--text{
+    color: #FFF;
+    font-size: 90px;
+    font-weight: 900;
+    line-height: normal;
+    letter-spacing: -1.8px;
+}
+
+#pop-desc--text{
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 146.9%; /* 20.566px */
+    letter-spacing: -0.28px;
+    opacity: 0.7;
+}
+
+#spotify--text{
+    color: #FFF;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 146.9%; /* 22.035px */
+    letter-spacing: -0.3px;
+}
+
+.pop-text--footer{
+    color: #FFF;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: -0.3px;
+    opacity: 0.7;
+}
+
+
+/* mid bottom */
+
+.mid--bottom{
+    height: 624px;
+    width: 1673px;
+    background-color: rgba(0, 0, 0, 0.15);
+    position: absolute;
+    left: 230px;
+    top: 402px;
+}
+
+.play-button--list{
+    margin-left: 35px;
+    margin-top: 25px;
+}
+
+.like--svg{
+    margin-right: 9px;
+    margin-left: 27px;
+}
+
+.album--list{
+    margin-left: 35px;
+    width: 1454px;
+    height: 462px;
+}
+
+.song--list{
+    width: 1454px;
+    height: 54px;
+    flex-shrink: 0;
+}
+
+.song--image{
+    margin-left: 16px;
+    margin-right: 14.5px;
+}
+
+.play-svg{
+    margin-left: 15px;
+}
+
+.song--name{
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18.188px;
+}
+
+.artist--name{
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.album--name{
+    margin-left: 70px;
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.album--one{
+    margin-left: 80px;
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.date--added{
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: normal;
+    opacity: 0.7;
+}
+
+
+.song--duration{
+    margin-right:12px;
+    color: #FFF;
+    font-size: 15px;
+    font-weight: 400; 
+    opacity: 0.7; 
+}
+
+.triple--dot{
+    margin-right: 14.5px;
+}
+
+/* player */
+
+.song-details--player{
+    margin-top: 7px;
+}
+.playlist-bottom--player{
+    width: 1903px;
+    height: 93px;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    background: #181818;
+}
+
+.song-img--player{
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
+.player--song{
+    color: #FFF;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 18.188px;
+}
+
+.player-song--artist{
+    color: #FFF;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.player-song--details{
+    margin-top: 12px;
+    margin-left: 15px;
+    margin-right: 17px;
+}
+
+.player--likes{
+    margin-right: 13px;
+}
